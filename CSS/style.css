@@ -1,0 +1,84 @@
+body {
+  background-color: #f0f8ff;
+}
+
+.navbar {
+  background-color: #007bff33;
+  border-radius: 50px;
+  padding: 10px 20px;
+  margin-top: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.navbar-brand, .nav-link {
+  color: #fff !important;
+}
+
+.nav-link:hover {
+  color: #ffdf00 !important;
+}
+
+.weather-card {
+  background-color: #e0f7fa;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.weather-card .card-body {
+  text-align: center;
+}
+
+.weather-icon {
+  width: 100px;
+}
+
+.day-night-icon {
+  width: 30px;
+}
+
+.contact-form {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.contact-form button {
+  width: 100%;
+}
+
+.navbar-nav .nav-item {
+  border-radius: 50%;
+  background-color: #007bff34;
+  margin: 0 5px;
+  padding: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.navbar-nav .nav-item:hover {
+  background-color: #0056b3;
+}
+
+.navbar-nav .nav-link {
+  border-radius: 50%;
+  padding: 10px 15px;
+  text-align: center;
+  display: inline-block;
+}
+
+.navbar-brand img {
+  height: 50px;
+}
